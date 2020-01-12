@@ -1,6 +1,5 @@
 
 #include "mergeSort.hpp"
-#include "output.hpp"
 
 void mergeSort(std::vector<int>&array,int l, int r){
    if(l < r){

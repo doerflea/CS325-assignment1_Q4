@@ -5,7 +5,7 @@
 
 std::vector<int> genRand(int i){
    srand(time(NULL));
-   i = 3400 * i;
+   i = 5000 * i;
    std::vector<int>array;
    for(int j = 0; j < i; j++){
       int num = rand() % 10000;
